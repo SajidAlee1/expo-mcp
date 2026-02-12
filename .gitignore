@@ -4,3 +4,4 @@ node_modules/
 tsconfig.tsbuildinfo
 *.dSYM.zip
 *.dSYM
+config.bat

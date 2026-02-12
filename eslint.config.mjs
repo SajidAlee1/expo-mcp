@@ -1,7 +1,7 @@
 import { defineConfig } from 'eslint/config';
 import { createRequire } from 'node:module';
 
-const require = createRequire(import.meta.url);
+
 const baseConfig = require('eslint-config-universe/flat/node');
 
 export default defineConfig([
@@ -19,3 +19,4 @@ export default defineConfig([
     },
   },
 ]);
+
